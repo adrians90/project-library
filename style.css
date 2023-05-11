@@ -1,9 +1,13 @@
 body {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px;
     gap: 50px;
+    width: 95vw;
+    height: 95vh;
+    padding: 25px;
+    flex-direction: column;
+    overflow: auto;
 }
 
 #new-book-btn {
