@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -8,6 +8,12 @@ body {
     padding: 25px;
     flex-direction: column;
     overflow: auto;
+    background-color: lightgray;
+    margin: 20px;
+    resize: both;
+    
+
+    
 }
 
 #new-book-btn {
@@ -21,22 +27,25 @@ body {
     border-radius: 10px;
     cursor: pointer;
     flex-direction: column;
+    
 }  
 
 form {
-    display: flex;
-    position: inherit;
+    display: grid;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     width: 30vw;
     height: 50vh;
-    margin: auto;
+    margin: 20px;
     text-align: center;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid slategray;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    resize: both;
+    
+    
 }
   
   input[type="text"],
@@ -84,7 +93,11 @@ form {
   }
 
   .book-card {
-    display: inline-block;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 200px;
     margin: 10px;
